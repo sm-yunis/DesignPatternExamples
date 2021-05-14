@@ -6,7 +6,19 @@ namespace Strategy
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Batman bruceWayne = new Batman();
+            HeroContext heroContext = new HeroContext(bruceWayne);
+
+            System.Console.WriteLine(heroContext.GetCurrentHero());
+            heroContext.Taunt();
+            heroContext.Fight();
+
+            heroContext.SetHero(new Thor());
+
+            System.Console.WriteLine(heroContext.GetCurrentHero());
+            heroContext.Taunt();
+            heroContext.Fight();
+
         }
     }
 }
