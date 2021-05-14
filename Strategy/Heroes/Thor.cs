@@ -1,10 +1,8 @@
 
-class Thor : IHero {
-    public void Fight() {
-        System.Console.WriteLine("Thor beating giants with his Mjölnir");
-    }
+class Thor : Hero {
 
-    public void Taunt() {
-        System.Console.WriteLine("The Mighty Thor Son of Odin");
+    public Thor(IHeroAction heroAction)
+    {
+        SetHeroAction(heroAction);
     }
 }
