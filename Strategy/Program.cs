@@ -6,15 +6,15 @@ namespace Strategy
     {
         static void Main(string[] args)
         {
-            HeroContext hero = HeroFactory.HeroContextFactory(Hero.Thor);
+            var hero = new HeroContext<Thor>();
             hero.Taunt();
             hero.Fight();
 
-            hero.SetHero(HeroFactory.HeroContextFactory(Hero.Batman));
+            hero.SetHero<Batman>();
             hero.Taunt();
             hero.Fight();
 
-            hero.SetHero(HeroFactory.HeroContextFactory(Hero.SpiderMan));
+            hero.SetHero(new SpiderMan());
             hero.Taunt();
             hero.Fight();
 
