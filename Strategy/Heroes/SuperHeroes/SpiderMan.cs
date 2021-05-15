@@ -1,13 +1,16 @@
 
-class SpiderMan : IHero
+namespace Strategy.SuperHeroes
 {
-    public void Fight()
+    public class SpiderMan : IHero
     {
-        System.Console.WriteLine("Spiderman weaves web on his enemies");
-    }
+        public void Fight()
+        {
+            System.Console.WriteLine("Spiderman weaves web on his enemies");
+        }
 
-    public void Taunt()
-    {
-        System.Console.WriteLine("Friendly Neighborhood spiderman");
+        public void Taunt()
+        {
+            System.Console.WriteLine("Friendly Neighborhood spiderman");
+        }
     }
 }

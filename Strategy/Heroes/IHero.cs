@@ -1,5 +1,9 @@
-interface IHero
+namespace Strategy
 {
-    public void Taunt();
-    public void Fight();
+
+    public interface IHero
+    {
+        public void Taunt();
+        public void Fight();
+    }
 }

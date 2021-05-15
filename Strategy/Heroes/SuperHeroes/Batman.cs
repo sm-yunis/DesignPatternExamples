@@ -1,11 +1,18 @@
 
-class Batman : IHero {
+namespace Strategy.SuperHeroes
+{
 
-    public void Fight() {
-        System.Console.WriteLine("Batman beating thugs with fancy gadgets");
-    }
+    public class Batman : IHero
+    {
 
-    public void Taunt() {
-        System.Console.WriteLine("I am Batman!");
+        public void Fight()
+        {
+            System.Console.WriteLine("Batman beating thugs with fancy gadgets");
+        }
+
+        public void Taunt()
+        {
+            System.Console.WriteLine("I am Batman!");
+        }
     }
 }

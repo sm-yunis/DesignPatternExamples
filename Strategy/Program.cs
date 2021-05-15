@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Strategy.SuperHeroes;
 
 namespace Strategy
 {
@@ -6,7 +6,11 @@ namespace Strategy
     {
         static void Main(string[] args)
         {
-            var hero = new HeroContext<Thor>();
+            // Various ways to create the same HeroContext
+            IHeroContext heroContext1 = new HeroContext<Thor>();
+
+            var hero = heroContext1;
+
             hero.Taunt();
             hero.Fight();
 
