@@ -1,6 +1,6 @@
 class Taunt : IHeroAction
 {
-    public void DoHeroStuff()
+    public void DoHeroAction()
     {
         System.Console.WriteLine("Taunting");
     }

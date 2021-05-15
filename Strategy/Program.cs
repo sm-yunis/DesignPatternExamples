@@ -7,9 +7,9 @@ namespace Strategy
         static void Main(string[] args)
         {
            Hero bruceWayne = new Batman(new Fight());
-           bruceWayne.DoHeroStuff();
+           bruceWayne.DoHeroAction();
            bruceWayne.SetHeroAction(new Taunt());
-           bruceWayne.DoHeroStuff();
+           bruceWayne.DoHeroAction();
 
         }
     }

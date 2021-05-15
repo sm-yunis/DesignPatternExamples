@@ -1,12 +1,12 @@
 
-abstract class Hero {
+abstract class Hero : IHero {
 
     private IHeroAction _heroAction;
 
     public void SetHeroAction(IHeroAction heroAction) => _heroAction = heroAction;
 
-    public void DoHeroStuff(){
-        _heroAction.DoHeroStuff();
+    public void DoHeroAction(){
+        _heroAction.DoHeroAction();
     }
 
 }

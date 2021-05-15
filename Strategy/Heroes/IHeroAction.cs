@@ -1,4 +1,4 @@
 public interface IHeroAction
 {
-    public void DoHeroStuff();
+    public void DoHeroAction();
 }

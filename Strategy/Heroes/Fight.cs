@@ -1,7 +1,7 @@
 
 class Fight : IHeroAction
 {
-    public void DoHeroStuff()
+    public void DoHeroAction()
     {
         System.Console.WriteLine("Fighting");
     }
