@@ -12,7 +12,7 @@ abstract class Planet {
 
     public double GetDiameter() => _diameter;
     public double GetWeight() => _weight;
-    public abstract long GetHumanPopulationFromSatelliteData();
+    public long GetHumanPopulationFromSatelliteData() => _humanPopulation;
     public abstract void CountHumanPopulationFromSatelliteData();
 
 }
