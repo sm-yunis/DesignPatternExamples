@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{44AEABEC-4385-4E4D-AFBC-86AFCEEE04CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{16A65BA2-8E4C-46EE-B2FC-7B94761F7504}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{44AEABEC-4385-4E4D-AFBC-86AFCEEE04CC}.Release|x64.Build.0 = Release|Any CPU
 		{44AEABEC-4385-4E4D-AFBC-86AFCEEE04CC}.Release|x86.ActiveCfg = Release|Any CPU
 		{44AEABEC-4385-4E4D-AFBC-86AFCEEE04CC}.Release|x86.Build.0 = Release|Any CPU
+		{16A65BA2-8E4C-46EE-B2FC-7B94761F7504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A65BA2-8E4C-46EE-B2FC-7B94761F7504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A65BA2-8E4C-46EE-B2FC-7B94761F7504}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{16A65BA2-8E4C-46EE-B2FC-7B94761F7504}.Debug|x64.Build.0 = Debug|Any CPU
+		{16A65BA2-8E4C-46EE-B2FC-7B94761F7504}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{16A65BA2-8E4C-46EE-B2FC-7B94761F7504}.Debug|x86.Build.0 = Debug|Any CPU
+		{16A65BA2-8E4C-46EE-B2FC-7B94761F7504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A65BA2-8E4C-46EE-B2FC-7B94761F7504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A65BA2-8E4C-46EE-B2FC-7B94761F7504}.Release|x64.ActiveCfg = Release|Any CPU
+		{16A65BA2-8E4C-46EE-B2FC-7B94761F7504}.Release|x64.Build.0 = Release|Any CPU
+		{16A65BA2-8E4C-46EE-B2FC-7B94761F7504}.Release|x86.ActiveCfg = Release|Any CPU
+		{16A65BA2-8E4C-46EE-B2FC-7B94761F7504}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
