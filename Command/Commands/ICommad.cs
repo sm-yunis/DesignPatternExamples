@@ -1,0 +1,3 @@
+interface IPersonCommand {
+    void Execute();
+}
